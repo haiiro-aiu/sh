@@ -1,0 +1,36 @@
+.dropdown{
+  display:none;
+  font-size: 30;
+  
+}
+
+
+li::before,
+label::before{
+  content:"";
+  display:block;
+  position:absolute;
+  right:5%;
+  width:.5em;
+  height:.5em;
+
+  transform:rotate(135deg);
+  
+}
+input[type="checkbox"]{
+  display:none;
+  
+}
+label[for="menu"]{
+  display:block;
+  
+ 
+}
+label[for="menu"]::before{
+  transform:rotate(225deg);
+  
+}
+#menu:checked + .dropdown{
+  display:block;
+  
+}
