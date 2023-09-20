@@ -1,0 +1,18 @@
+.menu{
+    
+    list-style-type: none;
+    display:block;
+    margin-top: 250;
+    white-space: nowrap;/*これないと２行で改行される*/
+    
+    width: 89px;
+    font-size: 40;
+    
+}
+
+a{
+   color:#e8e6e6;
+   text-decoration:none;
+   font-family: 'Chonburi', cursive;
+   font-family: 'Prata', serif;
+}
