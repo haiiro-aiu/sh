@@ -1,0 +1,22 @@
+header {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 80px;
+    background: #b9c1cf;
+    box-sizing: border-box;
+  }
+
+  .headerimg{
+   
+    display: block;
+    position: absolute;
+    float: left;
+    bottom: 0;
+    margin: auto -90;
+    max-width: 80%;
+    max-height: 100%;
+
+}
