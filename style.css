@@ -1,0 +1,59 @@
+#top{
+    width:25em;margin:0 auto;
+    /*二つセット、ないと中央に寄らない*/
+}
+
+
+.kaisyagaiyou{
+
+
+    position: relative;/*親*/
+    overflow:hidden;/*これないと２行で改行*/
+    margin-top: 200;
+    
+    
+    max-width: 350px;
+    min-width: 100px;
+}
+
+.fade{
+    
+    position: absolute;/*子*/
+    
+
+    letter-spacing:2px;
+    color:#8d8b8b;
+    font-size: 24px;
+    font-family: 'Prata', serif;
+}
+
+
+
+
+.fadein {
+    opacity: 0;
+    animation: fadein 4s ease forwards;
+   }
+   @keyframes fadein {
+    100% {  opacity: 1;}
+   }
+
+   .txt01 {
+    animation-delay: 0.1s;
+}
+   .txt02 {
+    animation-delay: 0.5s;
+}
+   .txt03 {
+    animation-delay: 1s;
+}
+   .txt04 {
+    animation-delay: 1.5s;
+}
+   .txt05 {
+    animation-delay: 2s;
+}
+
+
+
+
